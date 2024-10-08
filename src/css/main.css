@@ -16,3 +16,116 @@ img,
 video {
   display: block;
 }
+.description-title {
+  color: #000;
+  text-align: center;
+  font-family: "Hammersmith One";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+@media (min-width: 576px) {
+  .description-title {
+    font-size: 28px;
+  }
+}
+@media (min-width: 992px) {
+  .description-title {
+    font-size: 36px;
+    text-align: left;
+  }
+}
+.description-content {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+@media (min-width: 992px) {
+  .description-content {
+    font-size: 20px;
+    text-align: justify;
+  }
+}
+.logos {
+  display: flex;
+
+  padding: 0px 59px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+@media (min-width: 576px) {
+  .logos {
+    justify-content: space-between;
+  }
+}
+@media (min-width: 992px) {
+  .logos {
+    gap: 30px;
+    justify-content: baseline;
+  }
+}
+.news-title {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.download-title {
+  color: #000;
+  text-align: center;
+  font-family: "Hammersmith One";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  align-items: center;
+}
+@media (min-width: 576px) {
+  .download-title {
+    font-size: 28px;
+  }
+}
+@media (min-width: 992px) {
+  .download-title {
+    font-size: 36px;
+  }
+}
+.downloand-title.mobile {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.download-content.desktop {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+@media (min-width: 992px) {
+  .downloand-title.mobile {
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  .download-content.desktop {
+    display: none;
+  }
+}
